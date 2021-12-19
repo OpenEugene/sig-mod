@@ -1,0 +1,4 @@
+[submodule "src/oqtane.framework"]
+	path = src/oqtane.framework
+	url = https://github.com/oqtane/oqtane.framework
+	branch = master
