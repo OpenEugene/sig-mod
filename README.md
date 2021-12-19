@@ -1,7 +1,7 @@
 # sig-mod
 Oqtane module for drawing a signature
 
-update you Oqtane.server appsettings to point ot the Sqlite db
+update you Oqtane.server appsettings to point to the Sqlite db
 ```
  "Database": {
     "DefaultDBType": "Oqtane.Database.Sqlite.SqliteDatabase, Oqtane.Database.Sqlite"
