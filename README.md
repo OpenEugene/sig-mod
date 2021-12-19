@@ -3,7 +3,10 @@ Oqtane module for drawing a signature
 
 update you Oqtane.server appsettings to point ot the Sqlite db
 ```
- "ConnectionStrings": {
+ "Database": {
+    "DefaultDBType": "Oqtane.Database.Sqlite.SqliteDatabase, Oqtane.Database.Sqlite"
+  },
+  "ConnectionStrings": {
     "DefaultConnection": "Data Source=..\\..\\..\\..\\Data\\Oqtane-sig-mod.db;"
   },
 ```
